@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEST READ AND WRITE"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/readText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Read From File"
+        android:textSize="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center"/>
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/showText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text to show"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:textSize="25dp"/>
+    </ScrollView>
+</LinearLayout>
